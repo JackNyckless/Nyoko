@@ -4,7 +4,7 @@ const token = process.env.token;
 var hi = 0;
 var bye = 0;
 var findmat = 0;
-
+bot.login(token);
 bot.on("ready", () => {
     process.env.fortnite;
     console.log("Bot is ready!");
@@ -162,4 +162,3 @@ bot.on('message', (message) => {
         }
     }
 });
-bot.login(token);
