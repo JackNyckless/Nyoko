@@ -6,6 +6,7 @@ var bye = 0;
 var findmat = 0;
 
 bot.on("ready", () => {
+    process.env.fortnite;
     console.log("Bot is ready!");
 })
 
