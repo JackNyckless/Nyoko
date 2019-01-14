@@ -1,10 +1,9 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
+const token = "NTMzOTk3NjQ3ODA4MTY3OTM2.Dxzisw.iuDhj7B6Cw18dvcODF9_C2WlWjA";
 var hi = 0;
 var bye = 0;
 var findmat = 0;
-
-bot.login("NTMzOTk3NjQ3ODA4MTY3OTM2.Dxzisw.iuDhj7B6Cw18dvcODF9_C2WlWjA");
 
 bot.on("ready", () => {
     console.log("Bot is ready!");
@@ -162,3 +161,4 @@ bot.on('message', (message) => {
         }
     }
 });
+bot.login(token);
